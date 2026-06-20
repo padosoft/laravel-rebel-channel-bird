@@ -1,5 +1,8 @@
 # Laravel Rebel — Bird Channel
 
+> Official documentation: https://doc.laravel-rebel.padosoft.com
+
+
 > **Send phone verifications through Bird (formerly MessageBird), the Rebel way.** This package plugs the [Bird Verify API](https://docs.bird.com/api/verify-api) (SMS OTP) and Bird SMS delivery into [`laravel-rebel-channels`](https://github.com/padosoft/laravel-rebel-channels) as a `VerificationProvider` + `MessageDeliveryChannel` — so you get Bird's global delivery *plus* Rebel's fraud guard, rate limiting, fallback and audit on top. Part of the `padosoft/laravel-rebel-*` suite.
 
 <p align="center">
@@ -408,3 +411,4 @@ composer pint      # code style
 ```
 
 **License:** MIT — see [LICENSE](LICENSE). Part of the [`padosoft/laravel-rebel`](https://github.com/padosoft) suite.
+
